@@ -9,7 +9,7 @@ course made by [Mosh Hamedani](https://github.com/mosh-hamedani) on [Udemy](http
 In this section you will learn about _classes_, _constructors_, _methods_, _fields_, _access modifiers_, _properties_, _indexers_ and 
 how to initialize an _object_.
 
-### [Design a Stopwatch](https://goo.gl/Z3evKf)
+### [Design a Stopwatch](https://github.com/daleaguil/csharp-intermediate/blob/master/CSharpIntermediate/Classes/Stopwatch.cs)
 
 Design a `class` called Stopwatch. The job of this `class` is to simulate a stopwatch. It should provide two methods: 
 `Start()` and `Stop()`. We call the start method first, and the stop method next. Then we ask the stopwatch about the duration 
@@ -26,7 +26,7 @@ We use encapsulation and information hiding to achieve that. The `class` should 
 It only reveals a little bit, like a blackbox. From theoutside, you should not be able to misuse a `class` because you 
 shouldn’t be able to see the implementation detail. 
 
-### [Design a StackOverflow Post](https://goo.gl/P8UoW2)
+### [Design a StackOverflow Post](https://github.com/daleaguil/csharp-intermediate/blob/master/CSharpIntermediate/Classes/Post.cs)
 
 Design a `class` called Post. This `class` models a StackOverflow post. It should have properties for `title`, `description`
 and the `date`/`time` it was created. We should be able to up-vote or down-vote a post. We should also be able to see the 
@@ -48,7 +48,7 @@ This is _procedural programming_. Such programs are very **fragile**. Making a c
 In this section you will learn how do `access modifiers` and `constructors` affect inheritance, what is upcasting vs 
 downcasting, and boxing vs unboxing.
 
-### [Design a Stack](https://goo.gl/KKmL8W)
+### [Design a Stack](https://github.com/daleaguil/csharp-intermediate/blob/master/CSharpIntermediate/Inheritance/Stack.cs)
 
 A Stack is a _data structure_ for storing a list of elements in a LIFO (last in, first out) fashion.
 Design a `class` called Stack with three methods.
@@ -100,7 +100,7 @@ popped. This is because of the LIFO behaviour of stacks.
 
 ## Section 5 - Polymophism: Third Pillar of OOP
 
-### [Design a database connection](https://goo.gl/YvJJ3j)
+### [Design a database connection](https://github.com/daleaguil/csharp-intermediate/blob/master/CSharpIntermediate/Polymorphism/DbConnection.cs)
 
 To access a database, we need to open a connection to it first and close it once our job is done. Connecting to a 
 database depends on the type of the target database and the database management system (DBMS). For example, connecting 
@@ -130,7 +130,7 @@ Derive two classes `SqlConnection` and `OracleConnection` from `DbConnection` an
 and closing connections using `Console.WriteLine()`. In the real-world, SQL Server provides an API for opening or closing 
 a connection to a database. But for this exercise, we don’t need to worry about it.
 
-### [Design a database command](https://goo.gl/KbLdbc)
+### [Design a database command](https://github.com/daleaguil/csharp-intermediate/blob/master/CSharpIntermediate/Polymorphism/DbCommand.cs)
 
 Now that we have the concept of a `DbConnection`, let’s work out how to represent a
 `DbCommand`.
@@ -172,7 +172,7 @@ Then, swap the `SqlConnection` with an `OracleConnection` and see **polymorphism
 In this section you will learn what is an `interface`, how they help testability, how they affect extensability, why they 
 aren't just multiple inheritance and how it relates to **polymorphism**.
 
-### [Design a Workflow Engine](https://goo.gl/4Z1Fvs)
+### [Design a Workflow Engine](https://github.com/daleaguil/csharp-intermediate/blob/master/CSharpIntermediate/Interfaces/WorkflowEngine.cs)
 
 Design a workflow engine that takes a workflow object and runs it. A workflow is a series of steps
 or activities. The workflow engine `class` should have one method called `Run()` that takes a
